@@ -3,16 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body{
+    text-align: center;
+    min-height: 100vh;
+    background: #091921;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    background: #091921;
+    flex-direction: column;
 
 }
 
+.made{
+    color: #680707;
+    margin-bottom: 1rem;
+
+}
 .clock{
     width : 350px ;
     height: 360px;
